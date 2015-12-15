@@ -2,7 +2,9 @@ var express = require('express'),
     app = express(),
     port = process.argv[2];
 
+console.log(port);
+
 app.get('/home', function(req, res) {
-    res.end('Hello World!')
+    res.end('Hello World!');
 });
 app.listen(port);
