@@ -1,4 +1,4 @@
-var path = require('path'),//Oh my gosh this 'require' took me forever to figure out!
+var path = require('path'),
     express = require('express'),
     app = express(),
     suppliedPortNumber = process.argv[2],
